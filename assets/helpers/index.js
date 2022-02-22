@@ -17,3 +17,5 @@ if (firstQuote) {
 }
 
 generateBtn.addEventListener("click", changeElements);
+
+console.log("Hello");

@@ -12,6 +12,11 @@
       left: 50%;
       right: 50%;
       transform: translate(-50%, -15%);
+
+      &:hover {
+        cursor: none;
+        box-shadow: none;
+      }
     }
   }
 }
