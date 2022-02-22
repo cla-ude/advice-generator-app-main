@@ -1,0 +1,40 @@
+@media only screen and (max-width: 500px) {
+  .card-body__wrapper {
+    margin-bottom: 3rem;
+    padding-top: 3rem;
+    img.divider {
+      width: 100%;
+      content: url("/assets/images/pattern-divider-mobile.svg");
+    }
+  }
+  .generate-container {
+    .wrapper {
+      left: 50%;
+      right: 50%;
+      transform: translate(-50%, -15%);
+    }
+  }
+}
+
+@media only screen and (min-width: 500px) {
+  .card-body {
+    width: 55rem;
+  }
+
+  .card-body__wrapper {
+    padding: 2rem;
+    img.divider {
+      width: 100%;
+      content: url("/assets/images/pattern-divider-desktop.svg");
+    }
+  }
+
+  .generate-container {
+    margin-bottom: 3rem;
+    .wrapper {
+      left: 50%;
+      right: 50%;
+      transform: translate(-50%, 30%);
+    }
+  }
+}
